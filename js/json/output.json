@@ -1,0 +1,98 @@
+{
+    "start": {
+      "message": "Привет! Выберите один из вопросов:",
+      "options": [
+        {
+          "text": "Как сделать заказ?",
+          "next": "order"
+        },
+        {
+          "text": "Какие у вас услуги?",
+          "next": "services"
+        },
+        {
+          "text": "Как связаться с поддержкой?",
+          "next": "contact"
+        },
+        {
+          "text": "Есть ли у вас гарантия?",
+          "next": "warranty"
+        }
+      ]
+    },
+    "order": {
+      "message": "Чтобы сделать заказ, выберите товар и оформите через корзину.",
+      "options": [
+        {
+          "text": "Как оплатить?",
+          "next": "payment"
+        },
+        {
+          "text": "Как отследить заказ?",
+          "next": "tracking"
+        },
+        {
+          "text": "Связаться с оператором",
+          "next": "operator"
+        }
+      ]
+    },
+    "services": {
+      "message": "Мы предоставляем доставку, гарантию и поддержку!",
+      "options": [
+        {
+          "text": "Подробнее о доставке",
+          "next": "delivery"
+        },
+        {
+          "text": "Подробнее о поддержке",
+          "next": "support"
+        },
+        {
+          "text": "Связаться с оператором",
+          "next": "operator"
+        }
+      ]
+    },
+    "contact": {
+      "message": "Связаться с поддержкой можно по email: support@example.com",
+      "options": []
+    },
+    "warranty": {
+      "message": "Гарантия на товары – 12 месяцев!",
+      "options": []
+    },
+    "payment": {
+      "message": "Мы принимаем карты, PayPal и другие способы оплаты.",
+      "options": []
+    },
+    "tracking": {
+      "message": "Ваш заказ можно отследить в личном кабинете.",
+      "options": []
+    },
+    "delivery": {
+      "message": "Доставка занимает 3-5 рабочих дней.",
+      "options": []
+    },
+    "support": {
+      "message": "Наша поддержка работает 24/7!",
+      "options": []
+    },
+    "operator": {
+      "message": "Вы можете связаться с оператором следующим образом:",
+      "options": [
+        {
+          "text": "Написать в чат",
+          "action": "openChat"
+        },
+        {
+          "text": "Связаться в WhatsApp",
+          "action": "openWhatsApp"
+        },
+        {
+          "text": "Связаться в Telegram",
+          "action": "openTelegram"
+        }
+      ]
+    }
+  }
